@@ -1,0 +1,17 @@
+# GET ALL TODOS
+GET http://localhost:3000/todos/
+
+###
+
+# GET SIGNLE TODO
+GET http://localhost:3000/todos/62f61c2234f29db5eb17a904
+
+###
+
+# POST TODO
+POST http://localhost:3000/todos/
+Content-Type: application/json
+{
+  "text": "Learn React",
+  "done": false
+}
